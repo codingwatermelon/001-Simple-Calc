@@ -14,6 +14,7 @@
   border-radius: 1%;
 }
 
+/* Title of the calculator */
 #header {
   height: 1.5em;
   font-size: 250%;
@@ -24,6 +25,7 @@
   padding-top: .25em;
 }
 
+/* Calculator display */
 #result_field {
   background-color: white;
   width: 75%;
@@ -38,6 +40,7 @@
   color: #725752;
 }
 
+/* button text */
 button {
   height: 4em;
   width: 4em;
@@ -49,6 +52,7 @@ button {
   color: #725752;
 }
 
+/* larger buttons for CLEAR and SUBMIT */
 .largeButton {
-  width: 6.2em;
+  width: 10em;
 }
