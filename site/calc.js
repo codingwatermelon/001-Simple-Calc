@@ -5,7 +5,7 @@ numbers = document.getElementsByClassName('display');
 
 for (i = 0; i < numbers.length; i ++) {
   numbers[i].setAttribute('onclick', 'post(this)');
-};
+}
 
 function erase() {
   field.value = '';
