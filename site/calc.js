@@ -3,7 +3,7 @@ var field = document.getElementById('result_field');
 /* Returns array of all elements with name 'display' */
 numbers = document.getElementsByClassName('display');
 
-for (int i = 0; i < numbers.length; i ++) {
+for (i = 0; i < numbers.length; i ++) {
   numbers[i].setAttribute('onclick', 'post(this)');
 };
 
